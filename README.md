@@ -20,5 +20,5 @@ Repository for building tools with Node.js, integrating Husky and Gitleaks.
 - Users can immediately run it with:
 
 ```sh
-npx setup-husky-gitleaks@1.0.0 install
+npx setup-husky-gitleaks@<version> install
 ```
