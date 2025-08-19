@@ -1,0 +1,19 @@
+{
+  "name": "husky-gitleaks",
+  "version": "0.0.1",
+  "description": "Repository for building tools with Node.js, integrating Gitleaks to Husky.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "bin": {
+    "setup-husky-gitleaks": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gh_khanhpham_100398:khanhpham100398/husky-gitleaks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
