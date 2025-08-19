@@ -5,10 +5,12 @@ const [,, cmd] = process.argv;
 
 switch (cmd) {
   case "install":
-    install().catch(err => {
+    try {
+      await install();
+    } catch (err) {
       console.error("❌ Error:", err.message);
       process.exit(1);
-    });
+    }
     break;
   default:
     console.log("Usage: setup-husky-gitleaks <command>");
