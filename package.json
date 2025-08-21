@@ -1,6 +1,6 @@
 {
   "name": "husky-gitleaks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Install Gitleaks and integrate with Husky.",
   "type": "module",
   "bin": {
